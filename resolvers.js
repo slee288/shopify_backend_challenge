@@ -2,7 +2,7 @@ var express = require("express");
 var router = express.Router();
 var mongoose = require("mongoose");
 
-var Product = require("./models/Product");
+var Product = require("./models/product");
 
 // Resolver collections to be used as functions in GraphQL
 const resolvers = {
