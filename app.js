@@ -63,7 +63,7 @@ app.use("/graphql", graphqlHTTP({
 
 // Connect to MongoDB for data storage
 // Used MLab for online server
-mongoose.connect('mongodb://slee:1q2w3e4r!@ds161074.mlab.com:61074/marketplace');
+mongoose.connect('mongodb://slee:' + process.env.MONGO_PW + '@ds161074.mlab.com:61074/marketplace');
 
 
 // Listening for port 4000, OR wherever it is deployed to

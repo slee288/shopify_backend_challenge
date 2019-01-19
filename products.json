@@ -1,0 +1,31 @@
+{
+  "data": {
+    "products": [
+      {
+        "title": "MacBook Air",
+        "price": 1129,
+        "inventory_count": 130
+      },
+      {
+        "title": "MacBook Pro",
+        "price": 1729,
+        "inventory_count": 100
+      },
+      {
+        "title": "Samsung Galaxy S9",
+        "price": 949.99,
+        "inventory_count": 180
+      },
+      {
+        "title": "IPad Pro",
+        "price": 939,
+        "inventory_count": 78
+      },
+      {
+        "title": "iMac",
+        "price": 1329,
+        "inventory_count": 55
+      }
+    ]
+  }
+}
