@@ -75,6 +75,7 @@ const resolvers = {
     var title = args.purchaseInput.title;
     var quantity = args.purchaseInput.quantity;
 
+    // Unlike getProduct, it must have an exact match for the string
     const product = await Product.findOne( {title: title} );
 
     // Cannot find name
