@@ -1,0 +1,19 @@
+{
+  "name": "marketplace",
+  "version": "1.0.0",
+  "description": "Barebone of an online marketplace",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sang min Lee",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "easygraphql-format-error": "0.0.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "mongoose": "^5.4.5"
+  }
+}
